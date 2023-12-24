@@ -1,0 +1,400 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #F5F8FA;
+    margin: 0;
+}
+
+.header {
+    padding: 1%;
+    border-bottom: 2px solid rgb(226, 219, 219);
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 40%;
+}
+
+.logo-image {
+    height: 34px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.nav-items {
+    width: 49%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 12px;
+}
+
+.nav-items>.nav-item {
+    padding: 0 3%;
+}
+
+.nav-item-link {
+    font-size: 16px;
+    text-decoration: none;
+    color: #1D2C3C;
+    font-weight: 700;
+}
+
+.nav-button {
+    border-radius: 6px;
+    border: 2px solid #646E7A;
+    padding: 8px 15px;
+}
+
+.content {
+    padding-left: 15%;
+}
+
+.checkout-container {
+    display: flex;
+    margin-top: 49px;
+    width: 100%;
+}
+
+.checkout {
+    width: 50%;
+}
+
+h3 {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 70px;
+}
+
+.form-section:nth-child(1) {
+    margin-bottom: 100px;
+}
+
+.form-section-item {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.form-section-item>span {
+    color: #548BC5;
+    padding: 5px 9px;
+    border-radius: 100%;
+    border: 2px solid #548BC5;
+    font-weight: 400;
+    margin-right: 5px;
+}
+
+.name-section {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-section-item {
+    padding-right: 20px;
+}
+
+.name-section-item>label {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.name-section-item>input {
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    background: #EDEFF2;
+    padding: 10px 6px;
+    color: #646E7A;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.email-section>label {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.email-section>input {
+    width: 40%;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    background: #EDEFF2;
+    padding: 9px 15px;
+    color: #646E7A;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.card-details {
+    margin-top: 10px;
+    display: flex;
+}
+
+.form-section>label {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.card-details>input {
+    background-color: #EDEFF2;
+    border: 0;
+    padding: 9px 15px;
+}
+
+.card-details:nth-child(2) {
+    text-align: end;
+}
+
+.checkout-details-container {
+    width: 100%;
+    border-radius: 6px;
+    background: #F5F8FA;
+    display: flex;
+    padding-left: 20%;
+}
+
+.checkout-white {
+    background-color: white;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.05), 0px 15px 35px 0px rgba(43, 64, 78, 0.10);
+}
+
+.checkout-details {
+    border-radius: 0px 6px 6px 0px;
+    background: #1179BF;
+    width: 58%;
+    position: relative;
+    bottom: 5px;
+    right: 26%;
+}
+
+.checkout-details-top>p:nth-child(3) {
+    font-style: italic;
+}
+
+.card-details>div {
+    background-color: #EDEFF2;
+    color: #646E7A;
+}
+
+.card-number {
+    width: 60%;
+}
+
+.card-month {
+    width: 9%;
+    text-align: end;
+}
+
+#card-month {
+    padding-right: 0;
+}
+
+#card-year {
+    padding-left: 0;
+}
+
+.card-year {
+    width: 9%;
+}
+
+.card-cvc {
+    width: 20%;
+}
+
+#card-slash {
+    width: 6px;
+    padding: 2px;
+}
+
+.checkout-button {
+    width: 100%;
+    border-radius: 5px;
+    background: #038E7D;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 17px;
+    margin-top: 100px;
+    padding: 2% 5%;
+    border: none;
+    font-family: Lato;
+    margin-bottom: 10px;
+}
+
+.checkout-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.checkout-footer-top {
+    display: flex;
+}
+
+.checkout-footer-top-text1 {
+    margin-top: 3px;
+    margin-bottom: 0;
+}
+
+.checkout-footer-top-text2 {
+    margin-top: 5px;
+}
+
+.checkout-footer-top2 {
+    margin-left: 10px;
+}
+
+.checkout-need-help {
+    color: #1D2C3C;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.01px;
+}
+
+.checkout-hesitate {
+    color: #646E7A;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.01px;
+}
+
+.checkout-contact {
+    display: inline-block;
+    width: 100px;
+    border-bottom: 1px solid #646e7a78;
+}
+
+.checkout-details {
+    color: #FFF;
+    padding: 15px 35px 100px;
+}
+
+.checkout-freelancer {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.checkout-dollar {
+    font-size: 16px;
+}
+
+.checkout-99 {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -0.015px;
+}
+
+.checkout-dollar-99-year {
+    display: flex;
+    margin-bottom: 0;
+}
+
+.checkout-99-year {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 12px
+}
+
+.checkout-renew {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-style: italic;
+}
+
+.checkout-details-middle {
+    font-size: 16px;
+}
+
+.checkout-tick-items {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.checkout-tick {
+    margin-right: 10px;
+    height: 16px;
+}
+
+.checkout-bold {
+    font-weight: 700;
+}
+
+.checkout-agency {
+    margin-bottom: 50px;
+}
+
+.checkout-agency:before {
+    position: relative;
+    display: block;
+    width: 183px;
+    top: 20px;
+    border-bottom: 4px solid #B9F5FF;
+    opacity: 0.5036;
+    content: '';
+}
+
+hr {
+    opacity: 0.2005;
+    background: #FFF;
+}
+
+blockquote {
+    margin: 40px 0 0 0;
+}
+
+.checkout-details-bottom {
+    line-height: 24px;
+    font-style: italic;
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+.quote-flex {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.quote {
+    margin-bottom: 0;
+}
+
+.quote-image {
+    border-radius: 100%;
+}
+
+.footer-year {
+    color: #636B6F;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.footer-terms {
+    color: #31708F;
+}

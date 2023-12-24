@@ -1,0 +1,203 @@
+body {
+    background-color: #f6ffff;
+}
+
+.container  {
+    padding-top: 3%;
+    padding-bottom: 100px;
+    justify-content: center;
+    display: flex;
+}
+
+.logo-img {
+    width: 15%;
+    height: fit-content;
+    margin-top: 8%;
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.10));
+}
+
+.details-section {
+    width: 50%;
+    padding-top: 7%;
+}
+
+.details-header {
+    color: #000B0A;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -0.8px;
+    font-style: normal;
+}
+
+.details-text {
+    color: #737373;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.sign-up-section { 
+    width: 40%;
+    background: #FFF;
+    box-shadow: 0px 4px 50px 0px rgba(4, 8, 19, 0.10);
+    border-radius: 6px;
+    padding: 2% 1%;
+    min-width: 380px;
+    margin-top: 20px;
+}
+
+.sign-up-section > div {
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.sign-up-section-items > div {
+    display: flex;
+    flex-direction: column;
+}
+.sign-up-section-items-grid {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-column-gap: 30px;
+}
+
+.sign-up-label {
+    color: #011C34;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.1px;
+    font-style: normal;
+    width: fit-content;
+}
+
+.section-items-margin {
+    margin-bottom: 14px;
+}
+
+.top-grid-input {
+    padding: 5% 2%;
+    border: 1px solid #F0F0F0;
+    text-align: left;
+    margin-top: 10px;
+    color: #737373;
+    
+}
+
+.dob-input {
+    width: 90%;
+    padding: 5% 2%;
+    margin-top: 10px;
+    border: 1px solid #F0F0F0;
+}
+
+.activity-level-select {
+    margin-bottom: 30px;
+}
+
+.bottom-grid-input {
+   padding: 3% 2%;
+   border: 1px solid #F0F0F0;
+   color: #737373;
+   margin-top: 10px;
+}
+
+input:hover {
+    border-color: #2EC4B6;
+}
+
+input:focus, select:focus {
+    border-color: #1c867c;
+    outline: unset;
+}
+
+.sign-up-button > button {
+    color: #FFF;
+    border: none;
+    background-color: #2EC4B6;
+    width: 100%;
+    padding: 4%;
+    
+}
+.sign-up-button > button:hover {
+    filter: drop-shadow(0px 10px 40px rgba(0, 0, 0, 0.10));
+}
+
+.footer-link {
+    color: #2EC4B6;
+}
+
+.footer > p {
+    font-size: 14px;
+    border-style: none;
+    line-height: 25px;
+    text-align: center;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background: url(images/u_a_calendar-alt.png) no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+input[type="date"]:before {
+    color: #737373;
+    content: attr(placeholder);
+    margin-right: -40em;
+}
+
+input[id="password"] {
+    background-image: url(images/show.png);
+    background-position: 99% 10px; 
+    background-repeat: no-repeat;
+}
+
+.details-text-hidden {
+    display: none;
+}
+
+@media  screen and (min-width: 550px) and (max-width: 913px)  {
+    input[type="date"]::-webkit-calendar-picker-indicator {
+    width: 20%;
+    }
+}
+
+@media (max-width: 550px), screen and (orientation: portrait) {
+   .details-text-hidden {
+        display: block;
+        color: #737373;
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        width: 100%;
+    }
+
+   .details-text {
+        display: none;
+    }
+
+    .container {
+        padding-left: 7%;
+        flex-direction: column;
+    }
+
+    .container > section {
+        width: 90%;
+    }
+
+    .sign-up-section-items-grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .label-mobile {
+        margin-top: 25px;
+    }
+
+    .bottom-grid-input {
+        padding: 5% 2%;
+    }
+}
+   
